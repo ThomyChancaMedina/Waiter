@@ -4,7 +4,6 @@ import android.os.Bundle
 
 import androidx.appcompat.app.AppCompatActivity
 import com.hariofspades.platter.R
-import kotlinx.android.synthetic.main.activity_main.*
 import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
@@ -25,25 +24,5 @@ class MainActivity : AppCompatActivity() {
                     .commitNow()
         }
 
-//        setupCart()
-        clickListeners()
     }
-
-//    private fun setupCart() {
-//        cart_list.apply {
-//            layoutManager = LinearLayoutManager(this@MainActivity, LinearLayoutManager.HORIZONTAL, true)
-////            adapter = listAdapter
-//        }
-//    }
-
-    private fun clickListeners() {
-        add_to_cart.setOnClickListener {
-
-
-                motionContainer.transitionToEnd()
-
-        }
-    }
-
-
 }
