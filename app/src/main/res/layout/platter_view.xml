@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hariofspades.platter.utils.ViewpagerHeader xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/motionLayout"
+    app:layoutDescription="@xml/platter_scene"
+    android:layout_width="match_parent"
+    android:layout_height="230dp">
+
+    <com.thomy.library.ui.CountDownTime
+        android:id="@+id/plates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:clockwise="true"
+        app:animation="true"
+        app:timeTextColor="@color/colorPrimary"
+        app:innerCircleColor="@color/colorAccent"
+        app:outerCircleColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </com.thomy.library.ui.CountDownTime>
+
+
+</com.hariofspades.platter.utils.ViewpagerHeader>
